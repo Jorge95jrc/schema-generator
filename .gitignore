@@ -1,0 +1,25 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+local_settings.py
+
+# Site-specific settings
+*.sqlite3
+
+# Media files (use a separate storage service for production)
+media/
+
+# Static files (collectstatic should be used to collect them)
+staticfiles/
+
+# Virtual environment
+.venv/
+
+# Dependency directories
+lib/
+include/
+bin/

@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}{% endblock %}</title>
+  {% load bootstrap5 %}
+  {% bootstrap_css %}
+  {% bootstrap_javascript %}
+  <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body class="d-flex justify-content-center align-items-center">
+    <div class="container-sm">
+        <form method="post">
+            {% csrf_token %}
+            {{ form }}
+            <div>
+                <button class="btn btn-primary mt-3" type="submit">Generar Schema</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
