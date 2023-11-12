@@ -1,4 +1,4 @@
-# Project Title
+# Schema Generator
 
 This project offers a specialized feature: the dynamic generation of schema definition JSON files.
 Its primary objective is to simplify and accelerate the creation of these files crucial for broker deployment.
